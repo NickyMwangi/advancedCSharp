@@ -96,5 +96,9 @@ namespace BasicFeatures
             Console.WriteLine();
             Console.WriteLine();
         }
+        public static int CalculateArea(int width, int height)
+        {
+            return (width * height) / 2;
+        }
     }
 }
