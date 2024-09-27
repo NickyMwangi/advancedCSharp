@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Lessons\\advancedCSharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\lessons\\advancedcsharp\\basicfeatures\\listexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\listexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\lessons\\advancedcsharp\\basicfeatures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\lessons\\advancedcsharp\\basicfeatures\\datamanipulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\datamanipulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\lessons\\advancedcsharp\\basicfeatures\\inputvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\inputvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 311,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,15 +58,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "DataManipulation.cs",
+              "DocumentMoniker": "D:\\Lessons\\advancedCSharp\\BasicFeatures\\DataManipulation.cs",
+              "RelativeDocumentMoniker": "BasicFeatures\\DataManipulation.cs",
+              "ToolTip": "D:\\Lessons\\advancedCSharp\\BasicFeatures\\DataManipulation.cs",
+              "RelativeToolTip": "BasicFeatures\\DataManipulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T12:44:05.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputValue.cs",
+              "DocumentMoniker": "D:\\Lessons\\advancedCSharp\\BasicFeatures\\InputValue.cs",
+              "RelativeDocumentMoniker": "BasicFeatures\\InputValue.cs",
+              "ToolTip": "D:\\Lessons\\advancedCSharp\\BasicFeatures\\InputValue.cs",
+              "RelativeToolTip": "BasicFeatures\\InputValue.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:41:01.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Lessons\\advancedCSharp\\BasicFeatures\\Program.cs",
               "RelativeDocumentMoniker": "BasicFeatures\\Program.cs",
               "ToolTip": "D:\\Lessons\\advancedCSharp\\BasicFeatures\\Program.cs",
               "RelativeToolTip": "BasicFeatures\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T09:34:51.956Z",
+              "WhenOpened": "2024-09-27T10:40:24.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListExercises.cs",
+              "DocumentMoniker": "D:\\Lessons\\advancedCSharp\\BasicFeatures\\ListExercises.cs",
+              "RelativeDocumentMoniker": "BasicFeatures\\ListExercises.cs",
+              "ToolTip": "D:\\Lessons\\advancedCSharp\\BasicFeatures\\ListExercises.cs",
+              "RelativeToolTip": "BasicFeatures\\ListExercises.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwEwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:36:56.386Z",
               "EditorCaption": ""
             }
           ]
