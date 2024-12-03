@@ -9,7 +9,7 @@
 * Testing number formatting
 */
 //InputValue.NumberFormatting();
-InputValue.WorkingOnDate();
+//InputValue.WorkingOnDate();
 
 /**
  * List of exercises
@@ -19,6 +19,7 @@ InputValue.WorkingOnDate();
 //ListExercises.ReverseString();
 //ListExercises.PasswordChecker();
 //ListExercises.OddEvenNumber();
+ListExercises.FindAllPairs();
 //Console.WriteLine("Enter Width");
 //int width = Convert.ToInt32(Console.ReadLine());
 //Console.WriteLine("Enter Height");

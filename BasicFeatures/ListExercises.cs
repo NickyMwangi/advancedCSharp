@@ -18,7 +18,7 @@ namespace BasicFeatures
 
         public static void FizzBuzzGame()
         {
-            for(int i = 1;i <= 15; i++)
+            for (int i = 1; i <= 15; i++)
             {
                 if (i % 3 == 0 && i % 5 == 0)
                     Console.WriteLine("FizzBuzz");
@@ -43,13 +43,13 @@ namespace BasicFeatures
 
             //reverse character
             Console.WriteLine("***Diplay in Reverse***");
-            for (int i = str.Length-1; i >=0; i--)
-            {                                      
+            for (int i = str.Length - 1; i >= 0; i--)
+            {
                 Console.Write(str[i]);
                 Thread.Sleep(100);
             }
         }
-                                                 
+
         public static void PasswordChecker()
         {
             Console.WriteLine("Your Password?");
@@ -60,9 +60,9 @@ namespace BasicFeatures
             {
                 if (!string.IsNullOrEmpty(ConfirmPassword))
                 {
-                    if (password.Equals(ConfirmPassword))          
+                    if (password.Equals(ConfirmPassword))
                         Console.WriteLine("Passwords match");
-                    else 
+                    else
                         Console.WriteLine("Passwords do not match");
                 }
                 else
@@ -74,13 +74,13 @@ namespace BasicFeatures
 
         public static void OddEvenNumber()
         {
-            List<int> odd =[];
+            List<int> odd = [];
             List<int> even = [];
-            for(int i = 0;i <= 20; i++)
+            for (int i = 0; i <= 20; i++)
             {
-                 if(i%2==0)
+                if (i % 2 == 0)
                     even.Add(i);
-                 else
+                else
                     odd.Add(i);
             }
             Console.WriteLine("***********Printing Even Numbers");
@@ -99,6 +99,24 @@ namespace BasicFeatures
         public static int CalculateArea(int width, int height)
         {
             return (width * height) / 2;
+        }
+
+        //Find all pairs in an array.
+        public static void FindAllPairs()
+        {
+            int[] arr = { 1, 2, 3 };
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j =0; j < arr.Length; j++)
+                {
+                    if (arr[j].Equals(arr[i]))
+                        Console.WriteLine($"Pair: ({arr[i]}, {arr[j]})");
+
+
+                    //if (!arr[j].Equals(arr[i]))
+                    //    Console.WriteLine($"Pair: ({arr[i]}, {arr[j]})");
+                }
+            }
         }
     }
 }
