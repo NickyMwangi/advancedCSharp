@@ -11,4 +11,10 @@ using DataStructures;
 //ArrayStrings.SumToTarget();
 //ArrayStrings.MoveZeroToEnd();
 //ArrayStrings.SumSubArray();
-ArrayStrings.LengthOfLongestSubstring();
+//ArrayStrings.LengthOfLongestSubstring();
+//ArrayStrings.LongestBinaryGap(1041);
+
+
+/*
+ * Linked List understanding
+ */

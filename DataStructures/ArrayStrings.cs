@@ -160,5 +160,25 @@ namespace DataStructures
             }
             Console.WriteLine($"Maximum length is {maxLength}");
         }
+
+        public static void LongestBinaryGap(int N)
+        {
+            string binary = Convert.ToString(N,2);
+            int maxGap = 0;
+            int currentGap = 0;
+            foreach (char bit in binary)
+            {
+                if(bit == '1')
+                {
+                    maxGap = Math.Max(maxGap, currentGap); 
+                    currentGap=0;
+                }
+                else
+                {
+                    currentGap++;
+                }
+            }
+            Console.WriteLine($"Maximum gap is {maxGap}");
+        }
     }
 }
