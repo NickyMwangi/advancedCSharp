@@ -19,7 +19,7 @@
 //ListExercises.ReverseString();
 //ListExercises.PasswordChecker();
 //ListExercises.OddEvenNumber();
-ListExercises.FindAllPairs();
+ListExercises.TwoStringDistinct("abc", "bcd");
 //Console.WriteLine("Enter Width");
 //int width = Convert.ToInt32(Console.ReadLine());
 //Console.WriteLine("Enter Height");

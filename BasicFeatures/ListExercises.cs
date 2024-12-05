@@ -118,5 +118,53 @@ namespace BasicFeatures
                 }
             }
         }
+
+        //Binary gap
+        public static void BinaryGap(int N)
+        {
+            string binary = Convert.ToString(N, 2);
+            int gaps = 0;
+            int gapLength = 0;
+            int maxgap = 0;
+            foreach (char n in binary)
+            {
+                if (n == '1')
+                {
+                    gaps++;
+                    maxgap = Math.Max(maxgap, gapLength);
+                    gapLength = 0;
+                }
+                else
+                {
+                    gapLength++;
+                }
+            }
+            Console.WriteLine($"Integer {N} has an equivalent binary of {binary}. This has {gaps} gaps and longest one is {maxgap}");
+        }
+
+
+            //Ditict string in the combination of string
+        public static void TwoStringDistinct(string P, string Q)
+        {
+            int N = P.Length;
+            int minDistinct = int.MaxValue;
+
+            // Generate all possible combinations of S
+            int totalCombinations = 1 << N; // 2^N combinations
+            for (int mask = 0; mask < totalCombinations; mask++)
+            {
+                HashSet<char> distinctLetters = new HashSet<char>();
+                for (int i = 0; i < N; i++)
+                {
+                    // Choose P[i] if the i-th bit of mask is 0, otherwise choose Q[i]
+                    char selectedChar = ((mask & (1 << i)) == 0) ? P[i] : Q[i];
+                    distinctLetters.Add(selectedChar);
+                }
+                // Update the minimum distinct letters
+                minDistinct = Math.Min(minDistinct, distinctLetters.Count);
+            }
+
+            int maxint =  minDistinct;
+        }
     }
 }

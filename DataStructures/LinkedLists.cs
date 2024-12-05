@@ -98,34 +98,36 @@ namespace DataStructures
             Console.WriteLine();
         }
 
-        private static void IndicateNode(LinkedListNode<string> node, string test)
+        public static void CheckIsPalindrome()
         {
-            Console.WriteLine(test);
-            if (node.List == null)
+            if (First == null || First.Next == null)
+                Console.WriteLine("Is palindrome.");
+
+            ListNode slow = First, fast = First;
+            while(fast?.Next != null)
             {
-                Console.WriteLine("Node '{0}' is not in the list.\n",
-                    node.Value);
-                return;
+                slow = slow.Next; 
+                fast = fast.Next.Next;
             }
 
-            StringBuilder result = new StringBuilder("(" + node.Value + ")");
-            LinkedListNode<string> nodeP = node.Previous;
-
-            while (nodeP != null)
+            //Reverse second half
+            ListNode prev = null;
+            while (slow != null)
             {
-                result.Insert(0, nodeP.Value + " ");
-                nodeP = nodeP.Previous;
+                ListNode nxtTemp = slow.Next;
+                slow.Next = prev;
+                prev = slow;
+                slow = nxtTemp;
             }
 
-            node = node.Next;
-            while (node != null)
+            //compare both
+            while (prev != null)
             {
-                result.Append(" " + node.Value);
-                node = node.Next;
+                if (First.Value != prev.Value) Console.WriteLine("Not palindrome.");
+                First = First.Next;
+                prev = prev.Next;
             }
-
-            Console.WriteLine(result);
-            Console.WriteLine();
+            Console.WriteLine("Is palindrome.");
         }
     }
 }

@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\TestZone\\advancedCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFBBD8C5-F446-4949-BB85-93302B10ED9E}|DataStructures\\DataStructures.csproj|d:\\testzone\\advancedcsharp\\datastructures\\linkedlists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFBBD8C5-F446-4949-BB85-93302B10ED9E}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\linkedlists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\testzone\\advancedcsharp\\basicfeatures\\listexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\listexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFBBD8C5-F446-4949-BB85-93302B10ED9E}|DataStructures\\DataStructures.csproj|d:\\testzone\\advancedcsharp\\datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFBBD8C5-F446-4949-BB85-93302B10ED9E}|DataStructures\\DataStructures.csproj|solutionrelative:datastructures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\testzone\\advancedcsharp\\basicfeatures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\testzone\\advancedcsharp\\basicfeatures\\datamanipulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\datamanipulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\testzone\\advancedcsharp\\basicfeatures\\inputvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\inputvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,26 +60,52 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TestZone\\advancedCSharp\\DataStructures\\Program.cs",
-              "RelativeDocumentMoniker": "DataStructures\\Program.cs",
-              "ToolTip": "D:\\TestZone\\advancedCSharp\\DataStructures\\Program.cs",
-              "RelativeToolTip": "DataStructures\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwCEAAAAiAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\Program.cs",
+              "RelativeDocumentMoniker": "BasicFeatures\\Program.cs",
+              "ToolTip": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\Program.cs",
+              "RelativeToolTip": "BasicFeatures\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T09:45:17.422Z",
+              "WhenOpened": "2024-12-05T09:25:44.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LinkedLists.cs",
-              "DocumentMoniker": "D:\\TestZone\\advancedCSharp\\DataStructures\\LinkedLists.cs",
-              "RelativeDocumentMoniker": "DataStructures\\LinkedLists.cs",
-              "ToolTip": "D:\\TestZone\\advancedCSharp\\DataStructures\\LinkedLists.cs",
-              "RelativeToolTip": "DataStructures\\LinkedLists.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAiwCcAAAAlAAAAAAAAAA==",
+              "Title": "ListExercises.cs",
+              "DocumentMoniker": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\ListExercises.cs",
+              "RelativeDocumentMoniker": "BasicFeatures\\ListExercises.cs",
+              "ToolTip": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\ListExercises.cs",
+              "RelativeToolTip": "BasicFeatures\\ListExercises.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowKAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T09:45:10.227Z",
+              "WhenOpened": "2024-12-05T09:13:21.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataManipulation.cs",
+              "DocumentMoniker": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\DataManipulation.cs",
+              "RelativeDocumentMoniker": "BasicFeatures\\DataManipulation.cs",
+              "ToolTip": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\DataManipulation.cs",
+              "RelativeToolTip": "BasicFeatures\\DataManipulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:13:16.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputValue.cs",
+              "DocumentMoniker": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\InputValue.cs",
+              "RelativeDocumentMoniker": "BasicFeatures\\InputValue.cs",
+              "ToolTip": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\InputValue.cs",
+              "RelativeToolTip": "BasicFeatures\\InputValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:12:58.298Z",
               "EditorCaption": ""
             }
           ]
