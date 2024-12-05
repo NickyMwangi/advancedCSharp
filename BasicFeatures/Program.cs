@@ -19,7 +19,8 @@
 //ListExercises.ReverseString();
 //ListExercises.PasswordChecker();
 //ListExercises.OddEvenNumber();
-ListExercises.TwoStringDistinct("abc", "bcd");
+ListExercises.MaxCandies([2, 2, 2, 2, 2, 2], [7, 4, 2, 5, 1, 2]);
+//ListExercises.TwoStringDistinct("abc", "bcd");
 //Console.WriteLine("Enter Width");
 //int width = Convert.ToInt32(Console.ReadLine());
 //Console.WriteLine("Enter Height");

@@ -162,9 +162,30 @@ namespace BasicFeatures
                 }
                 // Update the minimum distinct letters
                 minDistinct = Math.Min(minDistinct, distinctLetters.Count);
-            }
+            } 
 
             int maxint =  minDistinct;
+        }
+
+        public static void MaxCandies(int[] A, int[] B)
+         {
+            int N = A.Length;
+            int maxPossibleTypes = N / 2;
+
+            // Convert both arrays A and B to HashSet to get unique candy types
+            HashSet<int> distinctA = new(A.Distinct());
+            HashSet<int> distinctB = new(B.Distinct());
+
+            // Limit the number of unique types to maxPossibleTypes
+            HashSet<int> uniqueA = new(distinctA.Take(maxPossibleTypes));
+            HashSet<int> uniqueB = new(distinctB.Where(type => !uniqueA.Contains(type)).Take(maxPossibleTypes));
+
+            // Combine the unique candy types from both sets
+            HashSet<int> allUniqueTypes = new(uniqueA);
+            allUniqueTypes.UnionWith(uniqueB); // Union of both sets
+
+            // The result is the minimum of the total unique types and the maximum we can afford
+            Console.WriteLine(allUniqueTypes.Count);
         }
     }
 }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\TestZone\\advancedCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\testzone\\advancedcsharp\\basicfeatures\\listexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\listexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\testzone\\advancedcsharp\\basicfeatures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\testzone\\advancedcsharp\\basicfeatures\\listexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|solutionrelative:basicfeatures\\listexercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{522514BE-9975-444A-A059-98E506610AE7}|BasicFeatures\\BasicFeatures.csproj|d:\\testzone\\advancedcsharp\\basicfeatures\\datamanipulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 311,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,26 +58,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\Program.cs",
               "RelativeDocumentMoniker": "BasicFeatures\\Program.cs",
-              "ToolTip": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\Program.cs",
-              "RelativeToolTip": "BasicFeatures\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "ToolTip": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\Program.cs*",
+              "RelativeToolTip": "BasicFeatures\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T09:25:44.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ListExercises.cs",
               "DocumentMoniker": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\ListExercises.cs",
               "RelativeDocumentMoniker": "BasicFeatures\\ListExercises.cs",
               "ToolTip": "D:\\TestZone\\advancedCSharp\\BasicFeatures\\ListExercises.cs",
               "RelativeToolTip": "BasicFeatures\\ListExercises.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAowKAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAAAKoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T09:13:21.728Z",
               "EditorCaption": ""
@@ -92,8 +92,7 @@
               "RelativeToolTip": "BasicFeatures\\DataManipulation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:13:16.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T09:13:16.721Z"
             },
             {
               "$type": "Document",
@@ -105,8 +104,7 @@
               "RelativeToolTip": "BasicFeatures\\InputValue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:12:58.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T09:12:58.298Z"
             }
           ]
         },
